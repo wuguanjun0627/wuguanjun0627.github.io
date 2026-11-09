@@ -1,11 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="google-site-verification" content="xDNWUvx6Q5EWK5YYSyKvK8DZTmvXhKsGX203Ll-BFFE">
-    <meta name=viewport content=“width=800”>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300);
         /* @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons); */
@@ -102,38 +104,63 @@
             margin-top: 5;
             /* change this to whatever height you want it */
         }
-    </style>
+
+        .page { width: min(100%, 920px); }
+        body { margin: 20px 12px; color: #202124; line-height: 1.55; }
+        .portrait img { max-width: 100%; height: auto; }
+        .one { width: 180px; height: auto; }
+        .publication-row img { max-width: 100%; height: auto; display: block; }
+        .paper-status { color: #54585d; }
+        .paper-monogram { box-sizing: border-box; width: 180px; padding: 20px 12px; background: #f0f5fa; color: #34516f; font-size: 27px; font-weight: 500; text-align: center; border-radius: 4px; }
+        .paper-monogram span { display: block; font-size: 12px; font-weight: 400; }
+        @media (max-width: 640px) {
+            body { margin: 8px; }
+            .biography, .portrait { display: block; width: auto; }
+            .portrait { text-align: center; }
+            .portrait img { width: 210px; }
+            .publication-row { display: block; padding: 15px 0; }
+            .publication-row > td { display: block; width: auto; padding: 8px 16px; }
+            .publication-row .one { width: 100%; }
+            .publication-row img { width: 240px; max-height: 180px; object-fit: contain; object-position: left center; }
+            table { max-width: 100%; }
+        }
+
+        .publication-row .one { width: 200px; max-width: 100%; }
+        .publication-row .teaser-video { display: block; width: 200px; max-width: 100%; height: auto; object-fit: contain; border-radius: 3px; background: #f4f5f6; }
+        @media (max-width: 640px) { .publication-row .one { width: 100%; } .publication-row .teaser-video { width: 280px; } }
+</style>
     <!-- <link rel="icon" type="image/png" href="media/preview.jpg"> -->
     <title>Guanjun Wu - Homepage</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <script src="script/functions.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-    <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <table class="page" width="800" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
             <td>
                 <!-- Biography -->
                 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
                     <tr>
-                        <td width="67%" valign="middle">
+                        <td class="biography" width="67%" valign="middle">
                             <p align="center">
                                 <name>Guanjun Wu (吴官骏)</name>
                             </p>
                             <p>
-                                I am a third-year Eng.D. student of <a href="https://www.hust.edu.cn/">Huazhong University of Science and Technology</a>, <a href="http://www.cs.hust.edu.cn/"> School of CS</a>. I got my bachelor degree from HUST in 2023.
+                                I am an Eng.D. student at <a href="https://www.hust.edu.cn/">Huazhong University of Science and Technology</a>, <a href="http://www.cs.hust.edu.cn/"> School of CS</a>. I received my bachelor's degree from HUST in 2023.
                                 Under the supervision of <a href="https://xwcv.github.io/">Prof. Xinggang Wang</a> and <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Prof. Wenyu Liu</a> in the <a href="https://ei.hust.edu.cn/">School of EIC</a>,
-                                I am pursuing my Eng.D. in collaboration with Huawei, where I work as a core R&amp;D member of the Xiaoyi 3D team and contribute to the Xiaoyi 3D model.
-                                My research interests mainly focus on 3D Vision / Neural Rendering.
+                                I am pursuing my Eng.D. in collaboration with Huawei, where I lead R&amp;D for the Xiaoyi 3D foundation model.
+                                My research focuses on 3D generative foundation models and 4D dynamic reconstruction.
                             </p>
-                            <p align=center>
-                                <a href="mailto:guajuwu@hust.edu.cn">Email</a> &nbsp;|&nbsp;
-                                <a href="https://scholar.google.com/citations?hl=zh-CN&user=2OrWci8AAAAJ">Google Scholar</a> &nbsp;|&nbsp;
-                                <a href="https://github.com/guanjunwu/">GitHub</a>
+                            <p align="center">
+                                <a href="mailto:guajuwu@hust.edu.cn">Email</a>  | 
+                                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=2OrWci8AAAAJ">Google Scholar</a>  | 
+                                <a href="https://github.com/guanjunwu/">GitHub</a>  | 
+                                <a href="files/Guanjun-Wu-CV.pdf" target="_blank" rel="noopener">CV</a>
                             </p>
                         </td>
-                        <td width="33%">
+                        <td class="portrait" width="33%">
                             <img src="media/photo.jpg" width="300" alt="headshot">
                         </td>
                     </tr>
@@ -158,10 +185,10 @@
                                 <li><strong>06/2026</strong> <a href="https://m.thepaper.cn/newsDetail_forward_33283239">Xiaoyi 3D × Pixel Artisan PRO (小艺3D × 像素匠PRO)</a> launches, debuts at <em>HDC 2026</em>, and receives a <a href="https://cn.chinadaily.com.cn/a/202606/12/WS6a2bd3bca310942cc49b1865.html">HarmonyOS Innovative Premium App Award</a>.</li>
                                 <li><strong>03/2026</strong> <a href="https://jumpat.github.io/tigon-page/">TIGON</a> is accepted to CVPR 2026, <a href="https://unilat3d.github.io/">UniLat3D</a> is accepted to CVPR 2026 Findings!</li>
                                 <li><strong>07/2025</strong> <a href="https://github.com/hustvl/Dynamic-2DGS">Dynamic 2D Gaussians </a>is accepted to ACMMM 2025!</li>
-                                <li><strong>10/2024</strong> Join Huawei as a joint Eng.D student supervised by <a herf="https://jaminfong.cn/">Jiemin Fang</a>, <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+                                <li><strong>10/2024</strong> Join Huawei as a joint Eng.D student supervised by <a href="https://jaminfong.cn/">Jiemin Fang</a>, <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&amp;hl=zh-CN">Xiaopeng Zhang</a>,
                                     <a href="http://lingxixie.com/"> Lingxi Xie</a> and <a href="https://www.qitian1987.com/">Qi Tian</a>!</li>
-                                <li><strong>02/2024 </strong><a href="https://wuguanjun0627.github.io/4dgs/">  4D-GS</a>, <a href="https://taoranyi.com/gaussiandreamer/"> GaussianDreamer</a> are accpeted to CVPR 2024! </li>
-                                <li><strong>10/2023</strong><a href="https://wuguanjun0627.github.io/HDR-HexPlane/"> HDR-HexPlane </a> is accpeted to 3DV 2024! </li>
+                                <li><strong>02/2024 </strong><a href="https://wuguanjun0627.github.io/4dgs/">  4D-GS</a>, <a href="https://taoranyi.com/gaussiandreamer/"> GaussianDreamer</a> are accepted to CVPR 2024! </li>
+                                <li><strong>10/2023</strong><a href="https://wuguanjun0627.github.io/HDR-HexPlane/"> HDR-HexPlane </a> is accepted to 3DV 2024! </li>
                             </ul>
                         </td>
                     </tr>
@@ -173,7 +200,7 @@
                         <td colspan="2">
                             <heading>Selected Research</heading>
                             <p>
-                                My research interests are efficient neural rendering technology, including: 4D Reconstruction, 3D Generation etc.
+                                My research focuses on 3D generation, dynamic reconstruction, and efficient neural rendering.
                             </p>
                             <p></p>
                             * Equal contribution.
@@ -181,21 +208,14 @@
                     </tr>
 
 
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <img src='media/UniLat3D.gif' width="180" height="100"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
+<tr id="cryosplat4d" class="publication-row">
+        <td width="25%" valign="top"><div class="one"><img src="media/cryosplat4d.png" width="180" alt="CryoSplat4D: Joint Heterogeneity Analysis and Structural Reconstruction in Cryo-EM with Deformable Gaussian Splatting" loading="lazy"></div></td>
+        <td width="75%" valign="top"><papertitle>CryoSplat4D: Joint Heterogeneity Analysis and Structural Reconstruction in Cryo-EM with Deformable Gaussian Splatting</papertitle><br><span class="paper-status">Under review</span><p style="font-size: 14px;">We use deformable Gaussian splatting to jointly analyze molecular heterogeneity and reconstruct 3D structures from noisy cryo-EM particle images.</p></td></tr>
+<tr id="supravox" class="publication-row">
+        <td width="25%" valign="top"><div class="one"><video class="teaser-video" width="200" autoplay="" muted="" loop="" playsinline="" controls="" preload="none" poster="media/teasers/supravox.jpg" aria-label="SUPRA-Vox: Native Voxel Prompts for Super-Aligned 3D Asset Generation — teaser video"><source data-src="media/teasers/supravox.mp4" type="video/mp4"></source>Your browser does not support video playback.</video></div></td>
+        <td width="75%" valign="top"><papertitle>SUPRA-Vox: Native Voxel Prompts for Super-Aligned 3D Asset Generation</papertitle><br><span class="paper-status">Under review</span><p style="font-size: 14px;">We encode the visible surface into native voxel prompts to guide structure completion and improve geometric alignment in image-to-3D generation.</p></td></tr>
+                    <tr class="publication-row" id="unilat3d">
+                        <td width="25%" valign="top"><div class="one"><img src="media/UniLat3D.gif" width="180" height="100"></div></td>
 
                         <td valign="top" width="75%">
                             <papertitle>
@@ -206,13 +226,13 @@
                             <strong>Guanjun Wu*</strong>,
                             <a href="https://jaminfong.cn">Jiemin Fang*</a>,
                             <a href="https://github.com/chensjtu">Chen Yang*</a>,
-                            <a href="https://scholar.google.com/citations?user=2dCJlg4AAAAJ&hl=zh-CN">Sikuang Li</a>,
+                            <a href="https://scholar.google.com/citations?user=2dCJlg4AAAAJ&amp;hl=zh-CN">Sikuang Li</a>,
                             <a href="https://taoranyi.com/">Taoran Yi</a>,
                             <span>Jia Lu</span>,
                             <a href="https://github.com/Zanue">Zanwei Zhou</a>,
                             <a href="https://github.com/Jumpat">Jiazhong Cen</a>,
                             <a href="http://lingxixie.com/">Lingxi Xie</a>,
-                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&amp;hl=zh-CN">Xiaopeng Zhang</a>,
                             <a href="https://www.eric-weiwei.com/">Wei Wei</a>,
                             <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
                             <a href="https://xwcv.github.io/">Xinggang Wang</a>,
@@ -232,22 +252,8 @@
                             </p>
                         </td>
                     </tr>
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-
-                                <img src='media/4dgs.gif' width="180" height="120"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
+                    <tr class="publication-row" id="4dgs">
+                        <td width="25%" valign="top"><div class="one"><img src="media/4dgs.gif" width="180" height="120"></div></td>
                         <td valign="top" width="75%">
                             <papertitle>
                                 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
@@ -259,7 +265,7 @@
                             <a href="https://jaminfong.cn/">Jiemin Fang</a>,
 
                             <a href="http://lingxixie.com/">Lingxi Xie</a>,
-                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&amp;hl=zh-CN">Xiaopeng Zhang</a>,
                             <a href="https://www.eric-weiwei.com/">Wei Wei</a>,
                             <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
                             <a href="https://www.qitian1987.com/">Qi Tian</a>,
@@ -284,26 +290,8 @@
                             </p>
                         </td>
                     </tr>
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <!-- <div class="two" id = 'openscene_shape'>
-          <video  width="160" height="100" muted autoplay loop>
-              <source src="media/openscene_teaser.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-              </video></div> -->
-                                <img src='media/hdrhexplane.gif' width="180" height="180"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
+                    <tr class="publication-row" id="hdrhexplane">
+                        <td width="25%" valign="top"><div class="one"><img src="media/hdrhexplane.gif" width="180" height="180"></div></td>
                         <td valign="top" width="75%">
                             <papertitle>
                                 Fast High Dynamic Range Radiance Fields for Dynamic Scenes
@@ -327,28 +315,15 @@
                             </p>
                         </td>
                     </tr>
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <img src='media/d2dgs.gif' width="180" height="180"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
+                    <tr class="publication-row" id="dynamic2dgs">
+                        <td width="25%" valign="top"><div class="one"><img src="media/d2dgs.gif" width="180" height="180"></div></td>
 
                         <td valign="top" width="75%">
                             <papertitle>
                                 Dynamic 2D Gaussians: Geometrically accurate radiance fields for dynamic objects
                             </papertitle>
                             <br>
-                            <a href="https://scholar.google.com/citations?hl=en&user=jEjHhDUAAAAJ">Shuai Zhang*</a>,
+                            <a href="https://scholar.google.com/citations?hl=en&amp;user=jEjHhDUAAAAJ">Shuai Zhang*</a>,
 
                             <strong>Guanjun Wu*</strong>,
                             <span>Zhoufeng Xie</span>,
@@ -356,7 +331,7 @@
 
                             <a href="https://xwcv.github.io/">Xinggang Wang</a>,
 
-                            <a href="https://scholar.google.com/citations?user=nRc8u6gAAAAJ&hl=en&oi=ao">Bin Feng</a>,
+                            <a href="https://scholar.google.com/citations?user=nRc8u6gAAAAJ&amp;hl=en&amp;oi=ao">Bin Feng</a>,
 
                             <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>
                             <br> ACMMM, 2025 (Oral)
@@ -376,21 +351,23 @@
                         </td>
                     </tr>
 
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <img src='media/tigon.png' width="180" height="125"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
+                    <tr id="gate3dgen" class="publication-row" data-date="2026-10-22">
+        <td width="25%" valign="top"><div class="one"><video class="teaser-video" width="200" autoplay="" muted="" loop="" playsinline="" controls="" preload="none" poster="media/teasers/gate3dgen.jpg" aria-label="Gate3DGen: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation — teaser video"><source data-src="media/teasers/gate3dgen.mp4" type="video/mp4"></source>Your browser does not support video playback.</video></div></td>
+        <td width="75%" valign="top"><papertitle>Gate3DGen: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation</papertitle><br>
+        Xiaolin Li, Zihao Huang, Fanpeng Meng, Chen Yang, <strong>Guanjun Wu</strong>, Kai Zhang, Jiemin Fang, Qi Tian<br><span class="paper-status">arXiv, 2026</span><br>[<a href="https://arxiv.org/abs/2610.31649">Paper</a>] [<a href="https://supra-3d.github.io/gate3dgen/">Page</a>]
+        <p style="font-size: 14px;">We selectively purify degraded real-world images before 3D generation while preserving object identity and leaving clean inputs unchanged.</p></td></tr>
+<tr id="longaussian" class="publication-row" data-date="2026-10-16">
+        <td width="25%" valign="top"><div class="one"><video class="teaser-video" width="200" autoplay="" muted="" loop="" playsinline="" controls="" preload="none" poster="media/teasers/longaussian.jpg" aria-label="LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction — teaser video"><source data-src="media/teasers/longaussian.mp4" type="video/mp4"></source>Your browser does not support video playback.</video></div></td>
+        <td width="75%" valign="top"><papertitle>LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction</papertitle><br>
+        Zhoufeng Xie, <strong>Guanjun Wu</strong>, Shuai Zhang, Xinggang Wang, Wenyu Liu<br><span class="paper-status">arXiv, 2026</span><br>[<a href="https://arxiv.org/abs/2610.23250">Paper</a>] [<a href="https://github.com/hustvl/LonGaussian">Code</a>]
+        <p style="font-size: 14px;">We reconstruct compact Gaussian scenes from long image sequences by using point tracks to merge repeated surface observations and depth consistency to filter occlusions.</p></td></tr>
+<tr id="supratex" class="publication-row" data-date="2026-10-15">
+        <td width="25%" valign="top"><div class="one"><video class="teaser-video" width="200" autoplay="" muted="" loop="" playsinline="" controls="" preload="none" poster="media/teasers/supratex.jpg" aria-label="SUPRA-Tex: 3D Generation with Super-Aligned Texture — teaser video"><source data-src="media/teasers/supratex.mp4" type="video/mp4"></source>Your browser does not support video playback.</video></div></td>
+        <td width="75%" valign="top"><papertitle>SUPRA-Tex: 3D Generation with Super-Aligned Texture</papertitle><br>
+        Chen Yang*, Jiemin Fang*, Fanpeng Meng*, Zihao Huang, Jichen Pang, <strong>Guanjun Wu</strong>, Zhikuan Bao, Qi Tian<br><span class="paper-status">arXiv, 2026</span><br>[<a href="https://arxiv.org/abs/2610.22352">Paper</a>] [<a href="https://supra-3d.github.io/supratex/">Page</a>] [<a href="https://github.com/Supra-3D/SUPRA-Tex">Code</a>]
+        <p style="font-size: 14px;">We align reference-view PBR observations to the visible surface and complete unseen materials in 3D to preserve image details in relightable assets.</p></td></tr>
+<tr class="publication-row" id="tigon" data-date="2026-03-24">
+                        <td width="25%" valign="top"><div class="one"><img src="media/tigon.png" width="180" height="125"></div></td>
 
                         <td valign="top" width="75%">
                             <papertitle>
@@ -400,7 +377,7 @@
 
                             <a href="https://github.com/Jumpat">Jiazhong Cen</a>,
                             <a href="https://jaminfong.cn">Jiemin Fang</a>,
-                            <a href="https://scholar.google.com/citations?user=2dCJlg4AAAAJ&hl=zh-CN">Sikuang Li</a>,
+                            <a href="https://scholar.google.com/citations?user=2dCJlg4AAAAJ&amp;hl=zh-CN">Sikuang Li</a>,
                             <strong>Guanjun Wu</strong>,
                             <a href="https://github.com/chensjtu">Chen Yang</a>,
                             <a href="https://taoranyi.com/">Taoran Yi</a>,
@@ -423,21 +400,46 @@
                         </td>
                     </tr>
 
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <img src='media/gaussiandreamerpro.gif' width="180" height="120"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
+                    <tr class="publication-row" id="togs" data-date="2025-09-01">
+                        <td width="25%" valign="top"><div class="one"><img src="media/TOGS.gif" width="180" height="120"></div></td>
 
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
+                        <td valign="top" width="75%">
+                            <papertitle>
+                                TOGS: Gaussian Splatting with Temporal Opacity Offset for Real-Time 4D DSA Rendering
+                            </papertitle>
+                            <br>
+                            <a href="https://github.com/Shuaizhang7">Shuai Zhang</a>,
+                            <a href="https://scholar.google.com.hk/citations?user=AaQm4aYAAAAJ&amp;hl=zh-CN&amp;oi=ao">Huangxuan Zhao</a>,
+                            <a href="https://github.com/zhouzhenghong-gt/">Zhenghong Zhou</a>,
+
+
+                            <strong>Guanjun Wu</strong>,
+
+                            <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=abn37yYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Chuansheng Zheng</a>,
+
+                            <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
+                            <a href="https://xwcv.github.io/">Xinggang Wang</a>,
+                            <br> IEEE JBHI, 2025
+                            <br> [
+                            <a href="https://arxiv.org/abs/2403.19586">Paper</a>] [
+                            <a href="https://github.com/hustvl/TOGS">Code</a>]
+
+                            <p style="font-size: 14px;">We propose TOGS, a Gaussian splatting method with opacity offset over time, which can effectively improve the rendering quality and speed of 4D DSA. We introduce an opacity offset table for each Gaussian to model the temporal
+                                variations in the radiance of the contrast agent. Additionally, we introduced a Smooth loss term in the loss function to mitigate overfitting issues that may arise in the model when dealing with sparse view scenarios. This
+                                model achieves stateof-the-art reconstruction quality under the same number of training views. Additionally, it enables real-time rendering while maintaining low storage overhead.
+
+
+                            </p>
                         </td>
+                    </tr>
+
+                    <tr id="sa4d" class="publication-row" data-date="2024-07-05">
+        <td width="25%" valign="top"><div class="one"><video class="teaser-video" width="200" autoplay="" muted="" loop="" playsinline="" controls="" preload="none" poster="media/teasers/sa4d.jpg" aria-label="Segment Any 4D Gaussians — teaser video"><source data-src="media/teasers/sa4d.mp4" type="video/mp4"></source>Your browser does not support video playback.</video></div></td>
+        <td width="75%" valign="top"><papertitle>Segment Any 4D Gaussians</papertitle><br>
+        Shengxiang Ji*, <strong>Guanjun Wu*</strong>, Jiemin Fang, Jiazhong Cen, Taoran Yi, Wenyu Liu, Qi Tian, Xinggang Wang<br><span class="paper-status">arXiv, 2024</span><br>[<a href="https://arxiv.org/abs/2407.04504">Paper</a>] [<a href="https://jsxzs.github.io/sa4d/">Page</a>]
+        <p style="font-size: 14px;">We learn a temporal identity feature field for interactive segmentation and editing of dynamic 4D Gaussian scenes.</p></td></tr>
+<tr class="publication-row" id="gaussiandreamerpro" data-date="2024-06-27">
+                        <td width="25%" valign="top"><div class="one"><img src="media/gaussiandreamerpro.gif" width="180" height="120"></div></td>
 
                         <td valign="top" width="75%">
                             <papertitle>
@@ -448,12 +450,12 @@
 
                             <a href="https://jaminfong.cn/">Jiemin Fang</a>,
                             <a href="https://github.com/Zanue">Zanwei Zhou</a>,
-                            <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=9Nw_mKAAAAAJ">Junjie Wang</a>,
+                            <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=zh-CN&amp;user=9Nw_mKAAAAAJ">Junjie Wang</a>,
 
                             <strong>Guanjun Wu</strong>,
 
                             <a href="http://lingxixie.com/">Lingxi Xie</a>,
-                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&amp;hl=zh-CN">Xiaopeng Zhang</a>,
                             <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
                             <a href="https://xwcv.github.io/">Xinggang Wang</a>,
                             <a href="https://www.qitian1987.com/">Qi Tian</a>
@@ -471,72 +473,8 @@
                     </tr>
 
 
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <img src='media/TOGS.gif' width="180" height="120"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
-
-                        <td valign="top" width="75%">
-                            <papertitle>
-                                TOGS: Gaussian Splatting with Temporal Opacity Offset for Real-Time 4D DSA Rendering
-                            </papertitle>
-                            <br>
-                            <a href="https://github.com/Shuaizhang7">Shuai Zhang</a>,
-                            <a href="https://scholar.google.com.hk/citations?user=AaQm4aYAAAAJ&hl=zh-CN&oi=ao">Huangxuan Zhao</a>,
-                            <a href="https://github.com/zhouzhenghong-gt/">Zhenghong Zhou</a>,
-
-
-                            <strong>Guanjun Wu</strong>,
-
-                            <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=abn37yYAAAAJ&view_op=list_works&sortby=pubdate">Chuansheng Zheng</a>,
-
-                            <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
-                            <a href="https://xwcv.github.io/">Xinggang Wang</a>,
-                            <br> IEEE JBHI
-                            <br> [
-                            <a href="https://arxiv.org/abs/2403.19586">Paper</a>] [
-                            <a href="https://github.com/hustvl/TOGS">Code</a>]
-
-                            <p style="font-size: 14px;">We propose TOGS, a Gaussian splatting method with opacity offset over time, which can effectively improve the rendering quality and speed of 4D DSA. We introduce an opacity offset table for each Gaussian to model the temporal
-                                variations in the radiance of the contrast agent. Additionally, we introduced a Smooth loss term in the loss function to mitigate overfitting issues that may arise in the model when dealing with sparse view scenarios. This
-                                model achieves stateof-the-art reconstruction quality under the same number of training views. Additionally, it enables real-time rendering while maintaining low storage overhead.
-
-
-                            </p>
-                        </td>
-                    </tr>
-
-                    <tr onmouseout="openscene_stop()" onmouseover="openscene_start()">
-                        <td width="25%">
-                            <div class="one">
-                                <!-- <div class="two" id = 'openscene_shape'>
-          <video  width="160" height="100" muted autoplay loop>
-              <source src="media/openscene_teaser.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-              </video></div> -->
-                                <img src='media/gaussiandreamer.gif' width="180" height="180"></div>
-                            <script type="text/javascript">
-                                function openscene_start() {
-                                    document.getElementById('openscene_shape').style.opacity = "1";
-                                }
-
-                                function openscene_stop() {
-                                    document.getElementById('openscene_shape').style.opacity = "0";
-                                }
-                                openscene_stop()
-                            </script>
-                        </td>
+                    <tr class="publication-row" id="gaussiandreamer" data-date="2024-06-01">
+                        <td width="25%" valign="top"><div class="one"><img src="media/gaussiandreamer.gif" width="180" height="180"></div></td>
                         <td valign="top" width="75%">
                             <papertitle>
                                 GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors
@@ -544,11 +482,11 @@
                             <br>
                             <a href="https://taoranyi.com/">Taoran Yi</a>,
                             <a href="https://jaminfong.cn/">Jiemin Fang</a>,
-                            <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=9Nw_mKAAAAAJ">Junjie Wang</a>,
+                            <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=zh-CN&amp;user=9Nw_mKAAAAAJ">Junjie Wang</a>,
 
                             <strong>Guanjun Wu</strong>,
                             <a href="http://lingxixie.com/">Lingxi Xie</a>,
-                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+                            <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&amp;hl=zh-CN">Xiaopeng Zhang</a>,
                             <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
                             <a href="https://www.qitian1987.com/">Qi Tian</a>,
                             <a href="https://xwcv.github.io/">Xinggang Wang</a>
@@ -565,7 +503,9 @@
                         </td>
                     </tr>
 
-                    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+</table>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
                         <tr>
                             <td>
                                 <heading>Academic Services</heading>
@@ -579,9 +519,10 @@
                                     <li>ACM Multimedia (ACMMM)</li>
 
                                     <strong>Journal Reviewers</strong>
+                                    <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)</li>
                                     <li>International Journal of Computer Vision (IJCV) </li>
                                     <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) </li>
-                                    <li>IEEE Transactions On Visualization And Computer Graphics (TCVG)</li>
+                                    <li>IEEE Transactions on Visualization and Computer Graphics (TVCG)</li>
                                     <li>
                                         ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
 
@@ -638,7 +579,7 @@
                                     I really like playing games, including but not limited to:
                                 </p>
                                 <ul>
-                                    <li><strong>RPG/ARPG:</strong> Black Myth Wukong, Elden Ring, The Witcher 3: Wild Hunt, The Legend of Zelda, Cyberpunk 2077, Baldur's Gate3, Total War, Mount & Blade, Monster Hunter, Dark Soul, Assassin's Creed, Final Fantasy,
+                                    <li><strong>RPG/ARPG:</strong> Black Myth Wukong, Elden Ring, The Witcher 3: Wild Hunt, The Legend of Zelda, Cyberpunk 2077, Baldur's Gate3, Total War, Mount &amp; Blade, Monster Hunter, Dark Soul, Assassin's Creed, Final Fantasy,
                                         etc. </li>
                                     <li><strong>MMO RPG:</strong> World of Warcrafts. </li>
                                     <li><strong>RTS/MOBA:</strong> LOL, Age of Empires 4, StarCrafts, etc. </li>
@@ -658,7 +599,7 @@
                                         <a href="https://jonbarron.info/">
                                             <font size="2">Here</font>
                                         </a>
-                                        <br> Last updated: Jul. 2026
+                                        <br> Last updated: Nov. 2026
                                     </font>
                                 </p>
                             </td>
@@ -688,9 +629,35 @@
                         gtag('config', 'UA-116734954-1');
                     </script>
 
-        </tr>
         </td>
+        </tr>
         </table>
-</body>
+<script id="teaser-playback">
+(() => {
+  const videos = Array.from(document.querySelectorAll('.teaser-video'));
+  function activate(video) {
+    const source = video.querySelector('source');
+    if (!source.src) { source.src = source.dataset.src; video.load(); }
+    video.muted = true;
+    video.play().catch(() => {});
+  }
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting && !document.hidden) activate(entry.target);
+      else entry.target.pause();
+    }), { rootMargin: '100px 0px', threshold: 0.01 });
+    videos.forEach(video => observer.observe(video));
+    document.addEventListener('visibilitychange', () => {
+      videos.forEach(video => {
+        if (document.hidden) video.pause();
+        else {
+          const bounds = video.getBoundingClientRect();
+          if (bounds.bottom > 0 && bounds.top < window.innerHeight) activate(video);
+        }
+      });
+    });
+  } else videos.forEach(activate);
+})();
+</script></body>
 
 </html>
